@@ -40,3 +40,20 @@
 .read-the-docs {
   color: #888;
 }
+form{
+  display:flex;
+  flex-direction: column;
+  gap:3rem;
+  border:2px solid white;
+  padding:4rem;
+}
+input{
+  height:30px;
+  width:15rem;
+  border-radius: 10px;;
+}
+select{
+  height:30px;
+  width:12rem;
+  border-radius: 10px;;
+}

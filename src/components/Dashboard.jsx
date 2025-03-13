@@ -31,6 +31,10 @@ const Dashboard = () => {
     // Add more movie objects as needed
   ]);
 
+
+const handleNav = ()=>{
+  navigate('/addmovie')
+}
   return (
     <div className="dashboard">
       <header className="dashboard-header">
@@ -41,6 +45,7 @@ const Dashboard = () => {
           <MovieCard key={movie.id} movie={movie} />
         ))}
       </div>
+      <button className='add' onClick={handleNav}>Add Movie</button>
     </div>
   );
 };
